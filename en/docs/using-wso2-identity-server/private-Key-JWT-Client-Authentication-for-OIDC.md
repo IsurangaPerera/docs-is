@@ -33,11 +33,7 @@ authentication, click
 .
 
 The authentication token **must** be sent as the value of the
-client\_assertion parameter. The value of the
-`         client_assertion_type parameter        ` MUST be "
-`         urn:        ` ietf `         :params:        ` oauth
-`         :client-assertion-type:        ` jwt
-`         -bearer        ` ".
+client\_assertion parameter. The value of the `client_assertion_type` parameter MUST be `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`.
 
   
 
