@@ -85,22 +85,22 @@ The API can be called in either of the following ways:
     `           eventCallbacks          ` array.  Different properties can be defined in the `           options          ` object such as `           authenticationOptions          `, `           authenticatorParams          `. See the following two examples:
 
     ``` java
-        executeStep(1,{
-            authenticationOptions:[{
-                authenticator: 'totp'
-            }]},
-        });
+    executeStep(1,{
+        authenticationOptions:[{
+            authenticator: 'totp'
+        }]},
+    });
     ```
     ``` java
-        executeStep(1, {
-            authenticatorParams: {
-                    local: {
-                        SessionExecutor: {
-                            MaxSessionCount: '1'
-                                          }
-                    }
-            }
-        });
+    executeStep(1, {
+        authenticatorParams: {
+                local: {
+                    SessionExecutor: {
+                        MaxSessionCount: '1'
+                                      }
+                }
+        }
+    });
     ```
       
     !!! note
